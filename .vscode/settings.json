@@ -1,0 +1,13 @@
+{
+  "php.validate.executablePath": "D:/PROGRAMAS/php/php.exe",
+  "python.pythonPath": "d:\\Programas\\Python\\python.exe",
+  "liveshare.connectionMode": "relay",
+  "liveshare.allowGuestTaskControl": true,
+
+  /*"liveServer.settings.useWebExt": true,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/",
+    "proxyUri": "http://localhost:80/PaginaWebGranjav2/index.php/",
+  }*/
+}
