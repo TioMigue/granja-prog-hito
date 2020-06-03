@@ -1,0 +1,1741 @@
+body{
+  margin: auto;
+  padding: auto;
+  background-image: url("../img/fondo2.jpg");
+  background-size: contain;
+}
+strong{
+  font-family: sans-serif;
+}
+#tableAnunciosIzq{
+  float: left;
+}
+#AnuncioIzq{
+  width: 180px;
+  height: 250px;
+  margin-top: 50px;
+  background-color: white;
+  float: left;
+  margin-left: 110px;
+}
+#tableAnunciosDer{
+  float: right;
+}
+#AnuncioDer{
+  width: 180px;
+  height: 250px;
+  margin-top: 50px;
+  background-color: white;
+  float: right;
+  margin-right: 110px;
+}
+#imgAnuncios{
+  width: 180px;
+  height: 250px;
+}
+#main{
+  width: auto;
+  height: auto;
+}
+#Titulo{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 25px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#Titulo2{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-image: url("../img/xddd.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+}
+#arriba{
+  width: auto;
+  height: 220px;
+}
+#camposIniSes{
+  width: 250px;
+  height: 100px;
+  background-color: #d3f0d2;
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#inputIni{
+  width: 150px;
+  height: 20px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#imgLogin{
+  margin-top: 16px;
+  margin-left: 10px;
+}
+#ARegistro{
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 2px;
+  font-family: sans-serif;
+  font-size: 20px;
+  float: left;
+}
+#Centro{
+  width: auto;
+  height: 130px;
+}
+#menuCentro{
+  width: 1300px;
+  height: 130px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #a7e0a5;
+}
+#abajo{
+  width: auto;
+  height: 800px;
+  margin: auto;
+  background-color: #d3f0d2;
+}
+#menuAbajo{
+  width: 1300px;
+  height: 700px;
+  padding-top: 10px;
+  margin: auto;
+  background-color: #d3f0d2;
+}
+#contenedorCentroAbajo{
+  width: 1200px;
+  height: 600px;
+  padding-top: 25px;
+  margin: auto;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: #d3f0d2;
+}
+/*Index*/
+#buscar{
+  width: 1200px;
+  height: 50px;
+  background-color: #d3f0d2;
+}
+#inputBuscar{
+  width: auto;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: inherit;
+}
+#btnBuscar{
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#tableImagenes{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#trImaneges{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenes{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tableBtnMenu{
+  margin: auto;
+  height: 80px;
+}
+#trBtnMenu{
+  width: 1250px;
+  margin: auto;
+  margin-top: 20px;
+  float: left;
+}
+#tdBtnMenu{
+  width: 200px;
+  height: 80px;
+  margin-left: 30px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+#btnMenu{
+  width: 200px;
+  height: 80px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: #54c242;
+  color: white;
+  font-size: 25px;
+}
+#tdBtnMenuMini{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 15px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+/*Pagina RegistroUsuario*/
+#formulario{
+  width: 1050px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #d3f0d2;
+}
+#tableFormulario{
+  width: 1000px;
+  margin: auto;
+}
+#trFormulario{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdFormulario{
+  width: 430px;
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+  background-color: #d3f0d2;
+}
+#tdFormulario2{
+  width: 100px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 20px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+
+}
+#Registro2{
+  width: 100px;
+  height: 50px;
+  float: right;
+  border-radius: 10px;
+  border-color: lightgreen;
+  background-color: white;
+  font-size: 20px;
+}
+#Registro1{
+  width: 250px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 90px;
+  float: right;
+  border-radius: 5px;
+  border-color: lightgreen;
+}
+#Registro{
+  width: 170px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 70px;
+  float: right;
+
+  border-radius: 5px;
+  border-color: lightgreen;
+}
+#strongRegistro{
+  float: left;
+  margin-top: 5px;
+}
+
+/*Pagina ComprarAnimal*/
+#compraAnimal{
+  width: 1050px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #d3f0d2;
+}
+#tableComprarAnimal{
+  width: 1000px;
+  margin: auto;
+}
+#trComprarAnimal{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#trComprarAnimal2{
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  float: left;
+}
+#tdComprarAnimal{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarAnimal1{
+  width: 450px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+#tdComprarAnimalTipo{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarAnimalPrecio{
+  width: 300px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 110px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarAnimalPago{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarAnimal12{
+  width: 450px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#strongTipo{
+  float: left;
+  margin-top: 30px;
+  margin-left: 55px;
+}
+#strongPrecio{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongPago{
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+#strongDesc{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#selectPago{
+  margin-top: 28px;
+  margin-right: 50px;
+  float: right;
+  font-size: 18px;
+}
+#btnCompraAnimal{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 65px;
+  border-radius: 10px;
+  float: right;
+  border-color: lightgreen;
+  background-color: white;
+}
+/*Pagina ComprarComida*/
+#compraComida{
+  width: 1050px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #d3f0d2;
+}
+#tableComprarComida{
+  width: 1000px;
+  margin: auto;
+}
+#trComprarComida{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#trComprarComida2{
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  float: left;
+}
+#tdComprarComida{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarComida1{
+  width: 450px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+#tdComprarComidaTipo{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarComidaPrecio{
+  width: 300px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 110px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarComidaPago{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdComprarComida12{
+  width: 450px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#strongTipo1{
+  float: left;
+  margin-top: 30px;
+  margin-left: 165px;
+}
+#strongPrecio1{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongPago1{
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+#strongDesc1{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#selectPago1{
+  margin-top: 28px;
+  margin-right: 50px;
+  float: right;
+  font-size: 18px;
+}
+#btnCompraComida{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 65px;
+  border-radius: 10px;
+  float: right;
+  border-color: lightgreen;
+  background-color: white;
+}
+/*Pagina AnimalesUsuario*/
+#animalesUsuario{
+  width: 1200px;
+  height: 50px;
+  background-color: #d3f0d2;
+}
+#inputBuscar1{
+  width: auto;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: inherit;
+}
+#btnBuscar1{
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#btnMultimedia{
+  width: 200px;
+  height: 60px;
+  margin-right: 10px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#btnUpload{
+  width: 800px;
+  height: 50px;
+  float: right;
+}
+#upload{
+  width: 50px;
+  height: 50px;
+  margin-right: 280px;
+  float: right;
+}
+#tableImagenesUsuario{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+#trImanegesUsuario{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenesUsuario{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+/*Pagina EstadoAnima-Alimento*/
+#estadoAnimal{
+  width: 1050px;
+  height: 550px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #d3f0d2;
+}
+#tableEstadoAnimal{
+  width: 1000px;
+  margin: auto;
+}
+#trEstadoAnimal{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#trEstadoAnimal2{
+  width: 450px;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+#trEstadoAnimal3{
+  width: 450px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+#tdEstadoAnimal{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+}
+#tdEstadoAnimal1{
+  width: 450px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+#tdEstadoAnimalTipo{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdEstadoAnimalChequeo{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdEstadoAnimalChequeos{
+  width: 450px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdEstadoAnimal12{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tdEstadoAnimal13{
+  width: 450px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#strongEstado{
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#strongPrecio2{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongPago2{
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+#strongDesc2{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#selectComida{
+  margin-top: 28px;
+  margin-right: 50px;
+  float: right;
+  font-size: 18px;
+}
+/*Pagina RetirarAnimal*/
+#retirarAnimal{
+  width: 1050px;
+  height: 550px;
+  margin: auto;
+  background-color: #d3f0d2;
+}
+#tableRetirarAnimal{
+  width: 1000px;
+  margin: auto;
+}
+#trRetirarAnimal{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#trRetirarAnimal2{
+  width: 450px;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+#tdRetirarAnimal{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+}
+#tdRetirarAnimal1{
+  width: 450px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+#tdRetirarAnimalSueldo{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#tdRetirarAnimalHabitad{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#tdRetirarAnimal12{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#strongHabitad{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongSueldo{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongDesc2{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#uploadHabitad{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#uploadSueldo{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#btnRetirarAnimal{
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 65px;
+  border-radius: 10px;
+  float: right;
+  border-color: lightgreen;
+  background-color: white;
+}
+#tdRetirarAnimal3{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+/*Historial compra*/
+#his
+{
+  width: 1100px;
+  height: 160px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin: auto;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+  background-color: white;
+}
+#iman
+{
+  width: 210px;
+  height: 160px;
+  padding-top: 0px;
+  padding-left: 0px;
+  float: left;
+  background-image: url(../img/pedigree.jpg);
+  background-size: 100% 100%;
+}
+#datt
+{
+  width: 120px;
+  height: 160px;
+  float: left;
+  padding-top: 0px;
+  margin-left: 0px;
+
+}
+#imadf
+{
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 40px;
+  background-image: url(../img/fecha.jpg);
+  background-size: 100% 100%;
+
+}
+#des
+{
+  width: 750px;
+  height: 160px;
+  float: left;
+  padding-top: 0px;
+  padding-left: 0px;
+
+}
+#desca
+{
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  float: left;
+}
+#desca2
+{
+  width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  float: left;
+}
+#desca3
+{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+/*Camara Animales*/
+#imagenanimal
+{
+  width: 800px;
+  height: 100%;
+  background-image: url(../img/golden.jpg);
+  background-size: 100% 100%;
+  float: left;
+}
+
+#tableta
+{
+  width: 200px;
+  height: 100%;
+  float: right;
+}
+#tdopco
+{
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 25px;
+  float: right;
+}
+#btnopco
+{
+  width: 120px;
+  height: 60px;
+  margin-top: 20px;
+  margin-right: 65px;
+  border-radius: 10px;
+  float: right;
+  border-color: lightgreen;
+  background-color: white;
+}
+#checkbox1
+{
+  float: left;
+
+}
+#selectanimal
+{
+  margin-top: 28px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: 18px;
+}
+/*admi*/
+#buscarAD{
+  width: 1200px;
+  height: 50px;
+  background-color: #D8EDF3;
+}
+#inputBuscarGV{
+  width: auto;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: inherit;
+}
+#btnBuscarGV{
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #F8C189;
+  border-style: solid;
+  background-color: white;
+}
+#btnReportarGV{
+  width: 100px;
+  height: 50px;
+  margin-right:130px;
+  border-radius: 10px;
+  border-color: #F8C189;
+  border-style: solid;
+  background-color: white;
+  float: right;
+}
+#tableImagenesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#trImanegesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenesGV{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tableBtnMenuGV{
+  margin: auto;
+  height: 80px;
+}
+#trBtnMenuAD{
+  width: 1250px;
+  margin: auto;
+  margin-top: 20px;
+  float: left;
+}
+#tdBtnMenuAD{
+  width: 200px;
+  height: 80px;
+  margin-left: 30px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+#tdBtnMenuG{
+  width: 200px;
+  height: 80px;
+  margin-left: 150px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+#btnMenuAD{
+  width: 200px;
+  height: 80px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+  background-color: #65B4CE;
+  color: white;
+  font-size: 25px;
+}
+#tdBtnMenuMiniGV{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 15px;
+  float: right;
+  border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+}
+#menuCentroAD{
+  width: 1300px;
+  height: 130px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #B1D9E7;
+}
+
+#abajoAD{
+  width: auto;
+  height: 800px;
+  margin: auto;
+  background-color: #D8EDF3;
+}
+#menuAbajoAD{
+  width: 1300px;
+  height: 700px;
+  padding-top: 10px;
+  margin: auto;
+  background-color: #D8EDF3;
+}
+#contenedorCentroAbajoAD{
+  width: 1200px;
+  height: 600px;
+  padding-top: 25px;
+  margin: auto;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+  background-color: #D8EDF3;
+}
+#tableImagenesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#trImanegesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenesGV{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F8C28A;
+  border-style: solid;
+}
+#TituloAD{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 25px;
+  border-color: #B6DCE9;
+  border-style: solid;
+}
+#camposIniSesAD{
+  width: 250px;
+  height: 100px;
+  background-color: #BACCD3;
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: #B6DCE9;
+  border-style: solid;
+}
+/*ChequeoAnimalAD---------------------------------------------------------------*/
+
+#conteFormChequeoAD{
+
+  width: 1000px;
+  height: 450px;
+  margin-top: 50px;
+margin-left: 95px;
+  border-radius: 10px;
+  border-color: #B6DCE9;
+  border-style: solid;
+  background-color: white;
+}
+#formularioChequeoAD{
+  width:auto;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+#formularioInputAD{
+  width: 450px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioInputDescripcionAD{
+  width: 450px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+
+#btnFormuAD{
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #B6DCE9;
+  border-style: solid;
+  background-color: white;
+  font-size: 25px;
+}
+#formularioInputAD12{
+  width: 50px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioInputAD13{
+  width: 450px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioInputDescripcionAD12{
+  width: 450px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioInputADEdad2{
+  width: 50px;
+  height: 30px;
+
+  margin-top: 20px;
+
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+
+#formularioInputADtel2{
+  width: 80px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+/*Registroalimento*/
+
+#lan
+{
+  margin-top: 10px;
+  width: 1050px;
+}
+#selectanimal2
+{
+  margin-top: 28px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+  font-size: 18px;
+}
+#formularioChequeoAD12{
+  width:auto;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+#ls
+{
+  width: 50px;
+  height: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#btnMenuAD2{
+  width: 150px;
+  height: 40px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+  background-color: #65B4CE;
+  color: white;
+  font-size: 25px;
+}
+#formularioInputAD14{
+  width: 200px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioInputAD15{
+  width: 150px;
+  height: 30px;
+
+  margin-top: 20px;
+
+  border-radius: 5px;
+  border-color: #B6DCE9;
+}
+#formularioChequeoAD13{
+  width:150px;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+#conteFormChequeoAD2{
+
+  width: 1000px;
+  height: 500px;
+  margin-top: 50px;
+margin-left: 95px;
+  border-radius: 10px;
+  border-color: #B6DCE9;
+  border-style: solid;
+  background-color: white;
+}
+#btnBuscar2{
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+  background-color: white;
+}
+#buscar2{
+  width: 1200px;
+  height: 50px;
+  background-color: #D8EDF3;
+}
+#tdImagenes2{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #65B4CE;
+  border-style: solid;
+}
+/*-----------------------------------------------------*/
+
+#buscarGV{
+  width: 1200px;
+  height: 50px;
+  background-color: #FAD1A9;
+}
+#inputBuscarGV{
+  width: auto;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: inherit;
+}
+#btnBuscarGV{
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-color: #F8C189;
+  border-style: solid;
+  background-color: white;
+}
+#btnReportarGV{
+  width: 100px;
+  height: 50px;
+  margin-right:130px;
+  border-radius: 10px;
+  border-color: #F8C189;
+  border-style: solid;
+  background-color: white;
+  float: right;
+}
+#tableImagenesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#trImanegesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenesGV{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: lightgreen;
+  border-style: solid;
+}
+#tableBtnMenuGV{
+  margin: auto;
+  height: 80px;
+}
+#trBtnMenuGV{
+  width: 1250px;
+  margin: auto;
+  margin-top: 20px;
+  float: left;
+}
+#tdBtnMenuGV{
+  width: 200px;
+  height: 80px;
+  margin-left: 78px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+#tdBtnMenuG{
+  width: 200px;
+  height: 80px;
+  margin-left: 150px;
+  float: left;
+  border-radius: 10px;
+  background-color: white;
+}
+#btnMenuGV{
+  width: 200px;
+  height: 80px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+  background-color: #F5A44D;
+  color: white;
+  font-size: 25px;
+}
+#tdBtnMenuMiniGV{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 15px;
+  float: right;
+  border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#menuCentroGV{
+  width: 1300px;
+  height: 130px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #FAD1A9;
+}
+
+#abajoGV{
+  width: auto;
+  height: 800px;
+  margin: auto;
+  background-color: #FCE9D4;
+}
+#menuAbajoGV{
+  width: 1300px;
+  height: 700px;
+  padding-top: 10px;
+  margin: auto;
+  background-color: #FCE9D4;
+}
+#contenedorCentroAbajoGV{
+  width: 1200px;
+  height: 600px;
+  padding-top: 25px;
+  margin: auto;
+  border-radius: 10px;
+  border-color: #F8C28A;
+  border-style: solid;
+  background-color: #FCE9D4;
+}
+#tableImagenesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#trImanegesGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#tdImagenesGV{
+  width: 200px;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F8C28A;
+  border-style: solid;
+}
+#TituloGV{
+  width: 600px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  border-radius: 25px;
+  border-color: #F8C28A;
+  border-style: solid;
+}
+#camposIniSesGV{
+  width: 250px;
+  height: 100px;
+  background-color: #FCE9D4;
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: #F8C28A;
+  border-style: solid;
+}
+/*ChequeoAnimal---------------------------------------------------------------*/
+
+#conteFormChequeo{
+
+  width: 1000px;
+  height: 450px;
+  margin-top: 50px;
+margin-left: 95px;
+  border-radius: 10px;
+  border-color: #F8C28A;
+  border-style: solid;
+  background-color: white;
+}
+#formularioChequeo{
+  width:auto;
+  height: 30px;
+  margin-top:20px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  font-size: 25px;
+
+}
+#formularioInput{
+  width: 450px;
+  height: 30px;
+
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: #F8C28A;
+}
+#formularioInputDescripcion{
+  width: 450px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 5px;
+  border-color: #F8C28A;
+}
+#tdLabelFormu{
+  float: left;
+}
+
+#btnFormu{
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+  background-color: white;
+  font-size: 25px;
+}
+#kk{
+  float: right;
+  margin-top: 80px;
+}
+/*EstadoAnimalGV----------------------------------------------------------------*/
+
+#estadoAnimalGV{
+  width: 1050px;
+  height: 550px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #FCE9D4;
+}
+#tableEstadoAnimalGV{
+  width: 1000px;
+  margin: auto;
+}
+#trEstadoAnimalGV{
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  float: left;
+}
+#trEstadoAnimal2GV{
+  width: 450px;
+  height: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+#trEstadoAnimal3GV{
+  width: 450px;
+  height: 50px;
+  margin: auto;
+  margin-top: 10px;
+}
+#tdEstadoAnimalGV{
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: 50px;
+  float: right;
+  background-color: white;
+  border-radius: 10px;
+}
+#tdEstadoAnimal1GV{
+  width: 450px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+}
+#tdEstadoAnimalTipoGV{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#tdEstadoAnimalChequeoGV{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#tdEstadoAnimalChequeosGV{
+  width: 450px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#tdEstadoAnimal12GV{
+  width: 450px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#tdEstadoAnimal13GV{
+  width: 450px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+}
+#strongEstadoGV{
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+#strongPrecio2GV{
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+#strongPago2GV{
+  margin-top: 30px;
+  margin-left: 30px;
+  float: left;
+}
+#strongDesc2GV{
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#selectComidaGV{
+  margin-top: 28px;
+  margin-right: 50px;
+  float: right;
+  font-size: 18px;
+}
+#inputDatos{
+  width: 200px;
+}
+
+#btnEstado{
+  width: 75px;
+  height: 35px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float: right;
+  font-family: sans-serif;
+  border-radius: 10px;
+  border-color: #F5A44D;
+  border-style: solid;
+  background-color: white;
+  font-size: 15px;
+}
+
+
+
+
+/*-----------------------------------------*/
