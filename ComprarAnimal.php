@@ -1,5 +1,6 @@
 <?php
-  session_start();
+//require 'conexion.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -25,12 +26,12 @@
       <div id="menuCentro">
         <table id="tableBtnMenu">
           <tr id="trBtnMenu">
-            <td id="tdBtnMenu"><a href="index.html"><input id="btnMenu" type="submit" value="HOME"></a></td>
-            <td id="tdBtnMenu"><a href="index.html"><input id="btnMenu" type="submit" value="CATALOGO"></a></td>
-            <td id="tdBtnMenu"><a href="AnimalesUsuario.html"><input id="btnMenu" type="submit" value="TUS MASCOTAS" ></a></td>
-            <td id="tdBtnMenu"><a href="multi.html"><input id="btnMenu" type="submit" value="MULTIMEDIA"></a></td>
-            <td id="tdBtnMenu"><a href="historialCompra.html"><input id="btnMenu" type="submit" value="HISTORIAL COMPRAS"></a></td>
-            <td id="tdBtnMenuMini"><a href="reportarErrorU.html"><img src="img/alert.png" alt="" width="50px" height="50px"></a></td>
+            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="HOME"></a></td>
+            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="CATALOGO"></a></td>
+            <td id="tdBtnMenu"><a href="AnimalesUsuario.php"><input id="btnMenu" type="submit" value="TUS MASCOTAS" ></a></td>
+            <td id="tdBtnMenu"><a href="multi.php"><input id="btnMenu" type="submit" value="MULTIMEDIA"></a></td>
+            <td id="tdBtnMenu"><a href="historialCompra.php"><input id="btnMenu" type="submit" value="HISTORIAL COMPRAS"></a></td>
+            <td id="tdBtnMenuMini"><a href="reportarErrorU.php"><img src="img/alert.png" alt="" width="50px" height="50px"></a></td>
           </tr>
         </table>
       </div>
@@ -65,15 +66,15 @@
         <div id="contenedorCentroAbajo">
           <div id="compraAnimal">
             <?php
-
-              $animal = $_POST['gato1'];
-
-              echo $animal;
+              if(isset($_SESSION["animal"]))
+                echo "<strong> Animal: ".$_SESSION["animal"]."</strong>";
             ?>
+            
             <form action="ComprarAnimal.php" method="POST">
             <table id="tableComprarAnimal">
               <tr id="trComprarAnimal">
-                <td id="tdComprarAnimal1"><img src="img/conejo.jpg" width="450px" height="280px" alt=""></td>
+                <img src="$_SESSION['animal'].jpg"  width="450px" height="280px" alt="">
+                <td id="tdComprarAnimal1"><?php echo '<img src="img/'.$_SESSION["animal"].'.jpg" width="450px" height="280px" alt="" >';?></td>
                 <td id="tdComprarAnimalTipo"><strong id="strongTipo">Tipo/Nombre/Edad/Tamaño/Color/Peso</strong></td>
                 <td id="tdComprarAnimalPrecio"><strong id="strongPrecio">Precios/Añadidos</strong></td>
                 <td id="tdComprarAnimalPago"><strong id="strongPago">Metodo de pago</strong> <select name="" id="selectPago"><option value="1">Efectivo</option><option value="2">PayPal</option><option value="3">WebPay</option></select></menu></td>

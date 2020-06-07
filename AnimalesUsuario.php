@@ -1,5 +1,6 @@
 <?php
-  session_start();
+//require 'conexion.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +19,7 @@
         <form action="AnimalesUsuario.php" method="POST">
         <?php
           if(isset($_SESSION["usuario"])){
-            echo '<strong> Bienvenido'.$_SESSION["usuario"].'</strong>';
+            echo "<strong> Bienvenido".$_SESSION["usuario"]."</strong>";
             echo '<input type="submit" name="btn_logOut" value="LogOut"></input>';
             if(isset($_POST['btn_logOut'])){
               session_destroy();
@@ -85,6 +86,7 @@
               <a href="multi.html"> <input id="btnMultimedia" type="submit" value="MULTIMEDIA"></input></a>
             </div>
             <div id="imagenesUsuario">
+              
               <table id="tableImagenesUsuario">
                 <tr id="trImanegesUsuario">
                   <td id="tdImagenesUsuario"><a href=""><img src="img/gatofrente.jpg" width="200px" height="100px" alt=""></a></td>

@@ -112,8 +112,8 @@ session_start();
               <form action="index.php" method="POST">
               <table id="tableImagenes">
                 <tr id="trImaneges">
-                  <td id="tdImagenes"><input type="submit" name="gato1" style="background: url(img/gatofrente.jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)" ></td>
-                  <td id="tdImagenes"><a href=""><img src="img/gatofrente.jpg" width="200px" height="100px" alt=""></a></td>
+                  <td id="tdImagenes"><input type="submit" name="animal" value="gatofrente" style="background: url(img/gatofrente.jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)" ></td>
+                  <td id="tdImagenes"><input type="submit" name="animal" value="cerdo" style="background: url(img/cerdo.jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)" ></td>
                   <td id="tdImagenes"><a href=""><img src="img/cerdo.jpg" width="200px" height="100px" alt=""></a></td>
                   <td id="tdImagenes"><a href=""><img src="img/dogchow.jpg" width="200px" height="100px" alt=""></a></td>
                 </tr>
@@ -131,9 +131,11 @@ session_start();
                 </tr>
               </table>
               <?php
-                if(isset($_POST['gato1'])){
-                  //$animal = $_POST['gato1'];
-                  echo "<script type='text/javascript'>comprarAnimal()</script>";                  
+                if(isset($_POST["animal"])){
+                  $animal = $_POST["animal"];
+                  $_SESSION["animal"] = $animal;
+                  echo "<script type='text/javascript'> window.location = 'ComprarAnimal.php '</script>";  
+                                  
                 }
               ?>
               </form>
