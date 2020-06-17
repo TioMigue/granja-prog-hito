@@ -3,7 +3,9 @@ body{
   padding: auto;
   background-image: url("../img/fondo2.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
+
 strong{
   font-family: sans-serif;
 }
@@ -1733,6 +1735,12 @@ margin-left: 95px;
   border-style: solid;
   background-color: white;
   font-size: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  #AnuncioIzq {
+    margin-left: 0px;
+  }
 }
 
 

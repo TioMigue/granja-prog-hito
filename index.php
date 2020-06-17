@@ -36,7 +36,8 @@ session_start();
         <form action="index.php" method="POST">
         <input id="inputIni" type="text" name="txtCorreo" placeholder="Correo" required>
         <input id="inputIni" type="text" name="txtPass" placeholder="Contraseña" required>
-        <input type="submit" name="btn_login" value="login"></input>
+        <input style='background: url(img/login.png); background-size: 100% 100%; background-repeat: no-repeat; width: 50px; height: 50px; border: 0; margin-top: 10;' type="submit" name="btn_login" value=""></input>
+        <a id="ARegistro" href="RegistroUsuario.php"> Registrarse</a>
         </form>
         <?php
             if(isset($_POST['btn_login'])){
@@ -60,15 +61,14 @@ session_start();
                 }
             }
         ?>
-        <img id="imgLogin" src="img/login.png" alt="" width="50px" height="50px">
-        <a id="ARegistro" href="RegistroUsuario.php"> Registrarse</a>
+
       </div>
     </div>
     <div id="Centro">
       <div id="menuCentro">
         <table id="tableBtnMenu">
           <tr id="trBtnMenu">
-            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="HOMES"></a></td>
+            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="HOME"></a></td>
             <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="CATALOGO"></a></td>
             <td id="tdBtnMenu"><a href="AnimalesUsuario.php"><input id="btnMenu" type="submit" value="TUS MASCOTAS" ></a></td>
             <td id="tdBtnMenu"><a href="multi.php"><input id="btnMenu" type="submit" value="MULTIMEDIA"></a></td>
@@ -109,33 +109,30 @@ session_start();
             <input id="inputBuscar" type="text">
             <input id="btnBuscar" type="submit" value="BUSCAR">
             <div id="imagenes">
-              <form action="index.php" method="POST">
+              <form style="width: 1000; margin: auto; " action="index.php" method="POST">
               <table id="tableImagenes">
                 <tr id="trImaneges">
-                  <td id="tdImagenes"><input type="submit" name="animal" value="gatofrente" style="background: url(img/gatofrente.jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)" ></td>
-                  <td id="tdImagenes"><input type="submit" name="animal" value="cerdo" style="background: url(img/cerdo.jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)" ></td>
-                  <td id="tdImagenes"><a href=""><img src="img/cerdo.jpg" width="200px" height="100px" alt=""></a></td>
-                  <td id="tdImagenes"><a href=""><img src="img/dogchow.jpg" width="200px" height="100px" alt=""></a></td>
+                  <?php
+                      $sql = "SELECT * FROM animal";
+                      $result = $conn->query($sql);
+                      if($result ->num_rows > 0){
+                          while($row = $result -> fetch_assoc()){
+                              //echo "<strong> Animal: ".$row['nombre']."</strong>";
+                              echo "<td id='tdImagenes' style= 'margin-top: 10px;'><input type='submit' name='animal' value='".$row['img']."' style='background: url(img/".$row['img'].".jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)'></td>";
+                          }
+
+                      }
+                  ?>
+
                 </tr>
-                <tr id="trImaneges">
-                  <td id="tdImagenes"><a href="ComprarAnimal.html"><img src="img/conejo.jpg" width="200px" height="100px" alt=""></a></td>
-                  <td id="tdImagenes"><a href=""><img src="img/golden.jpg" width="200px" height="100px" alt=""></a></td>
-                  <td id="tdImagenes"><a href=""><img src="img/vaca.jpg" width="200px" height="100px" alt=""></a></td>
-                  <td id="tdImagenes"><a href="ComprarComida.html"><img src="img/pedigree.jpg" width="200px" height="100px" alt=""></a></td>
-                </tr>
-                <tr id="trImaneges">
-                  <td id="tdImagenes"><a href=""></a><img src="img/gallina.jpg" width="200px" height="100px" alt=""></td>
-                  <td id="tdImagenes"><a href=""></a><img src="img/hamster.jpg" width="200px" height="100px" alt=""></td>
-                  <td id="tdImagenes"><a href=""></a><img src="img/pato.jpg" width="200px" height="100px" alt=""></td>
-                  <td id="tdImagenes"><a href=""></a><img src="img/comidaconejo.jpg" width="200px" height="100px" alt=""></td>
-                </tr>
+
               </table>
               <?php
                 if(isset($_POST["animal"])){
                   $animal = $_POST["animal"];
                   $_SESSION["animal"] = $animal;
-                  echo "<script type='text/javascript'> window.location = 'ComprarAnimal.php '</script>";  
-                                  
+                  echo "<script type='text/javascript'> window.location = 'ComprarAnimal.php '</script>";
+
                 }
               ?>
               </form>

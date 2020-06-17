@@ -19,8 +19,11 @@ session_start();
         <form action="AnimalesUsuario.php" method="POST">
         <?php
           if(isset($_SESSION["usuario"])){
-            echo "<strong> Bienvenido".$_SESSION["usuario"]."</strong>";
-            echo '<input type="submit" name="btn_logOut" value="LogOut"></input>';
+            echo "<strong> Bienvenido: </strong> <br>";
+            echo "<strong>".$_SESSION["usuario"]."</strong> <br>";
+            
+            //echo '<input type="submit" name="btn_logOut" value="Log Out"></input>';
+            echo '<input style=" background: url(img/login.png); background-size: 100% 100%; background-repeat: no-repeat; width: 50px; height: 50px; border: 0; margin-top: 10; color: transparent; " type="submit" name="btn_logOut" ></input>';
             if(isset($_POST['btn_logOut'])){
               session_destroy();
               echo '<script> window.location = "index.php"</script>';
@@ -32,7 +35,6 @@ session_start();
           //echo '<input id="inputIni" type="text" name="" value="" placeholder="Usuario">';
         ?>        
         </form>        
-        <img id="imgLogin" src="img/login.png" alt="" width="50px" height="50px">
         <a id="ARegistro" href="RegistroUsuario.php"> Registrarse</a>
       </div>
     </div>
