@@ -68,7 +68,7 @@ session_start();
       <div id="menuCentro">
         <table id="tableBtnMenu">
           <tr id="trBtnMenu">
-            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="CASA"></a></td>
+            <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="HOME"></a></td>
             <td id="tdBtnMenu"><a href="index.php"><input id="btnMenu" type="submit" value="CATALOGO"></a></td>
             <td id="tdBtnMenu"><a href="AnimalesUsuario.php"><input id="btnMenu" type="submit" value="TUS MASCOTAS" ></a></td>
             <td id="tdBtnMenu"><a href="multi.php"><input id="btnMenu" type="submit" value="MULTIMEDIA"></a></td>
