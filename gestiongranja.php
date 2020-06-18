@@ -78,7 +78,7 @@
               <tr id="lan">
                 <td id="ls"><div id="formularioChequeoAD12"> Granjeros </div></td>
                 <td id="ls"><select name="" id="selectanimal2"><option value="1">juan</option><option value="2">Macarena</option><option value="3">Alexa</option></select> </td>
-                <td id="ls"><div id="formularioChequeoAD12"> Animales </div></td>
+                <td id="ls"><div id="formularioChequeoAD12"> Veterinario </div></td>
                 <td id="ls"><select name="" id="selectanimal2"><option value="1">Perro</option><option value="2">Gato</option><option value="3">Cerdo</option></select></td>
               </tr>
 
