@@ -31,7 +31,7 @@
             <td id="tdBtnMenuAD"><a href="registrarAlime.html"><input id="btnMenuAD" type="submit" value="Ingresar Alimento"></a></td>
             <td id="tdBtnMenuAD"><a href="RegistrarEmpleado.html"><input id="btnMenuAD" type="submit" value="Ingresar Granjas"></a></td>
 
-                        <td id="tdBtnMenuMiniGV"><a href="ChequeoAnimalAdmin.html"><img src="img/alert.png" alt="" width="50px" height="50px"></a></td>
+            <td id="tdBtnMenuMiniGV"><a href="ChequeoAnimalAdmin.html"><img src="img/alert.png" alt="" width="50px" height="50px"></a></td>
           </tr>
         </table>
       </div>

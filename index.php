@@ -120,7 +120,6 @@ session_start();
                               //echo "<strong> Animal: ".$row['nombre']."</strong>";
                               echo "<td id='tdImagenes' style= 'margin-top: 10px;'><input type='submit' name='animal' value='".$row['img']."' style='background: url(img/".$row['img'].".jpg); background-size: 100% 100%; background-repeat: no-repeat; width: 200px; height: 100px; color: rgba(0,0,0,0)'></td>";
                           }
-
                       }
                   ?>
 

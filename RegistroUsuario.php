@@ -13,6 +13,10 @@ require 'conexion.php';
 <body>
   <div id="main">
     <div id="arriba">
+      <div id="Titulo">
+          <div id="Titulo2">
+          </div>
+        </div>
       <div id="camposIniSes">
         <input id="inputIni" type="text" name="" value="" placeholder="Usuario">
         <input id="inputIni" type="text" name="" value="" placeholder="Contraseña">
